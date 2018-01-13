@@ -7,11 +7,33 @@
 //
 
 import UIKit
-
+import CoreData
 class ViewController: UIViewController {
 
+    @IBOutlet weak var word_field: UITextField!
+    @IBAction func add(_ sender: UIButton) {
+        
+        let id = 3
+        let word = word_field.text
+        
+        let temp = Word()
+        if temp.addWord(id:id, word:word!){
+            print("Success return")
+            print(word!)
+        }
+        else{
+            print("Not successfull")
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+       
+ 
+       
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

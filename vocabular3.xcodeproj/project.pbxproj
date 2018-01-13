@@ -14,6 +14,7 @@
 		5500797F200915FA00194E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5500797E200915FA00194E28 /* Assets.xcassets */; };
 		55007982200915FA00194E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55007980200915FA00194E28 /* LaunchScreen.storyboard */; };
 		5500798D200915FA00194E28 /* vocabular3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500798C200915FA00194E28 /* vocabular3Tests.swift */; };
+		5500799820091B4300194E28 /* wordbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5500799720091B4300194E28 /* wordbase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		55007988200915FA00194E28 /* vocabular3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabular3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5500798C200915FA00194E28 /* vocabular3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabular3Tests.swift; sourceTree = "<group>"; };
 		5500798E200915FA00194E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5500799720091B4300194E28 /* wordbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordbase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				55007980200915FA00194E28 /* LaunchScreen.storyboard */,
 				55007983200915FA00194E28 /* Info.plist */,
 				5500797B200915FA00194E28 /* vocabular3.xcdatamodeld */,
+				5500799720091B4300194E28 /* wordbase.swift */,
 			);
 			path = vocabular3;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5500799820091B4300194E28 /* wordbase.swift in Sources */,
 				5500797D200915FA00194E28 /* vocabular3.xcdatamodeld in Sources */,
 				55007977200915FA00194E28 /* ViewController.swift in Sources */,
 				55007975200915FA00194E28 /* AppDelegate.swift in Sources */,
